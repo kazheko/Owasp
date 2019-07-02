@@ -1,0 +1,9 @@
+obj
+bin
+publish
+*.suo
+*.user
+packages/
+**/.vs/*
+.idea/
+*.sln.iml
