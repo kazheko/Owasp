@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owasp.Sqli", "Owasp.Sqli\Owasp.Sqli.csproj", "{58B7F911-E536-4848-A4BA-BAFF5EC7A478}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Owasp.Database", "Owasp.Database\Owasp.Database.sqlproj", "{CCC94270-F9B9-460D-9A51-587C4D4E9E14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A1 - SQL Injection", "A1 - SQL Injection", "{2633102A-149A-4EC3-B51F-E695098BE4E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58B7F911-E536-4848-A4BA-BAFF5EC7A478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B7F911-E536-4848-A4BA-BAFF5EC7A478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B7F911-E536-4848-A4BA-BAFF5EC7A478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B7F911-E536-4848-A4BA-BAFF5EC7A478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC94270-F9B9-460D-9A51-587C4D4E9E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC94270-F9B9-460D-9A51-587C4D4E9E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC94270-F9B9-460D-9A51-587C4D4E9E14}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CCC94270-F9B9-460D-9A51-587C4D4E9E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC94270-F9B9-460D-9A51-587C4D4E9E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC94270-F9B9-460D-9A51-587C4D4E9E14}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58B7F911-E536-4848-A4BA-BAFF5EC7A478} = {2633102A-149A-4EC3-B51F-E695098BE4E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {789C8357-8A98-4770-ACDD-C84EB56657EA}
+	EndGlobalSection
+EndGlobal
